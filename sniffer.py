@@ -14,9 +14,8 @@ def sniffer():
     amount=int(input("amount of packets to capture:"))      #get amount of packets to capture
     askfile=str(input("Do you want to save the output to a file? [yes | no] :"))
     if(askfile=="yes"):     #if wish to save to file is yes
-        capture=pyshark.LiveCapture(interface='wlp3s0') #initialize capture
+        capture=pyshark.LiveCapture(interface=toscan) #initialize capture
         capture.sniff(packet_count=amount)   #starting sniffing
-        sniff(toscan,amount)
         for pkt in capture:
             filename=str(input("How should the .txt file be named [example: capture.txt]")) 
             out_file=open(filename,"w")

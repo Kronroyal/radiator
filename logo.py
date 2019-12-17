@@ -4,6 +4,7 @@ class bcolors:
     GREEN='\u001b[92m'
     BLUE='\u001b[94m'
     YELLOW='\u001b[93m'
+    RESET='\u001b[0m'
 
 def print_logo1():   #found on :  http://www.ascii-art.de/ascii/s/skull.txt
     icon=""
