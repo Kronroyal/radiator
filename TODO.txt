@@ -1,0 +1,13 @@
+- add DOS Service
+- add MAC/ IP SPoofing Service
+- Add Bruteforce & Dictionary Attacks
+- add config file?
+- add zipcracker
+- add encryptor & decryptor Service 
+- improve README.md
+- add git repos     DONE
+- add portscanner
+- add emailbomber
+- vpn connect
+- proxy connect
+- 
