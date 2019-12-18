@@ -2,6 +2,7 @@ import sniffer
 import logo
 import dos
 import portscan
+import encrypt
 # --------MAIN OF ALL SCRIPTS-----------------
 Host="127.0.0.1"
 Port=80
@@ -19,13 +20,15 @@ def exec_script(inp):
         dos.main()
     elif(inp==2):
         portscan.main()
+    elif(inp==3):
+        encrypt.main()
     else:
         print("This option is not available! \n")
 
 if __name__=="__main__":
     logo.print_logo2()       # Print Script Logo
     opt_counter=0
-    menu=["Sniffer","DOS","Portscanner","coming soon..."]
+    menu=["Sniffer","DOS","Portscanner","Encryption","coming soon..."]
     print(f"{logo.bcolors.RED}MENU{logo.bcolors.RESET}\n")
     for element in menu:
         print("[",opt_counter,"]",element)
