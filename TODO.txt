@@ -4,6 +4,7 @@
 - add config file?
 - add zipcracker
 - improve README.md
+- improve .gitignore
 - improve portscanner
 - add emailbomber
 - vpn connect
