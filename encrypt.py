@@ -18,9 +18,9 @@ def get_filename(option):
     elif(option=="decrypt"):
         filename=str(input("Which File do you want to decrpyt [*.txt] ?: "))
     else:
-        print("Could not get filename.")
+        print("->Not an available parameter.")
     
-    return filename
+    return filename     #return filename for to be opened file
 
 def loop(options=[]):
     counter=0
