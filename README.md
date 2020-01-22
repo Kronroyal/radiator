@@ -6,3 +6,4 @@ This script is for educational use only.
 
 ONLY USE IT ON SYSTEMS YOU ARE ALLOWED TO.
 
+test
